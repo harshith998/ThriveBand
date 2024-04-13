@@ -8,4 +8,5 @@ export const HomePage = () => (
     <HeroBanner />
     <Auth0Features />
   </PageLayout>
+  
 );
