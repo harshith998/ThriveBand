@@ -7,10 +7,10 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "r
 export const ProfilePage = () => {
   const { user } = useAuth0();
 
-  // Generate some random data
-  const data = Array.from({ length: 100 }, (_, i) => ({
-    time: i * 10,
-    electrocytes: 100 + Math.floor(Math.random() * 50),
+  // Generate data with a general upward trend
+  const data = Array.from({ length: 30 }, (_, i) => ({
+    time: i + 1,
+    electrocytes: 100 + Math.floor(i * 1.5),
   }));
 
   if (!user) {
