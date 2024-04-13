@@ -1,7 +1,8 @@
 import React from "react";
 
 export const HeroBanner = () => {
-  const logo = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fthrive-logo-png-logo-vector-brand-downloads-svg-eps--651473902369552850%2F&psig=AOvVaw3KKQV4S9woN_yg54-3IGEX&ust=1713066434461000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDB6POjvoUDFQAAAAAdAAAAABAE";
+  const logo =
+    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fthrive-logo-png-logo-vector-brand-downloads-svg-eps--651473902369552850%2F&psig=AOvVaw3KKQV4S9woN_yg54-3IGEX&ust=1713066434461000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDB6POjvoUDFQAAAAAdAAAAABAE";
 
   return (
     <div className="hero-banner hero-banner--pink-yellow">
@@ -10,9 +11,9 @@ export const HeroBanner = () => {
       </div>
       <h1 className="hero-banner__headline">Thrive Band</h1>
       <p className="hero-banner__description">
-      ··A·holistic·wearable·for·Tracking·Health,·Regulating·Intensity,·and⏎
-      ········Verifiying·Enudurance·(THRIVE).·Our·device·is·a·wrist·device·containing⏎
-      ········numerous·sensors,·allowing·for·a·complete·workout·and·fitness⏎
+        ··A·holistic·wearable·for·Tracking·Health,·Regulating·Intensity,·and⏎
+        ········Verifiying·Enudurance·(THRIVE).·Our·device·is·a·wrist·device·containing⏎
+        ········numerous·sensors,·allowing·for·a·complete·workout·and·fitness⏎
       </p>
       <a
         id="code-sample-link"
