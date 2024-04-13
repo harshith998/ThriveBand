@@ -1,6 +1,8 @@
 import React from "react";
 
 export const PageFooter = () => {
+  const logo = "src/components/thrivelogo.png"; // New logo path
+
   return (
     <footer className="page-footer">
       <div className="page-footer-grid">
@@ -11,7 +13,7 @@ export const PageFooter = () => {
               <strong>Thrive Band</strong>
             </p>
             <p className="page-footer-message__description">
-              Thrive Band is a revolutionary wearable device designed to enhance your fitness experience. With advanced features such as automatic cramp prediction and pace guidance, Thrive Band empowers users to optimize their workouts and achieve their fitness goals.
+              Thrive Band is a revolutionary wearable device designed to enhance your fitness experience. With advanced features such as automatic cramp prediction and pace guidance, Thrive Band empowers users to
             </p>
           </div>
           <div className="page-footer-info__button">
@@ -30,7 +32,7 @@ export const PageFooter = () => {
           <div className="page-footer-brand">
             <img
               className="page-footer-brand__logo"
-              src="/thrivelogo.png"
+              src={logo} // Using the new logo path
               alt="Thrive Band Logo"
               width="100"
               height="100"
