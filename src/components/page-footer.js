@@ -13,9 +13,7 @@ export const PageFooter = () => {
               <strong>Thrive Band</strong>
             </p>
             <p className="page-footer-message__description"> 
-              <span>
-                Your fitness experience. Your health. Your life.
-              </span>
+              <span>Your fitness experience. Your health. Your life.</span>
             </p>
           </div>
           <div className="page-footer-info__button">
