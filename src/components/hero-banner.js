@@ -18,7 +18,7 @@ export const HeroBanner = () => {
         id="code-sample-link"
         target="_blank"
         rel="noopener noreferrer"
-        href="thriveband.vercel.app"
+        href="https://thriveband.vercel.app/"
         className="button button--secondary"
       >
         Check out Thrive Band in action →
