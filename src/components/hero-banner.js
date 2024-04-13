@@ -6,7 +6,7 @@ export const HeroBanner = () => {
   return (
     <div className="hero-banner hero-banner--pink-yellow">
       <div className="hero-banner__logo">
-        <img className="hero-banner__image" src={logo} alt="Thrive Band Logo" />
+        <img className="hero-banner__logo" src={logo} alt="Thrive Band Logo" />
       </div>
       <h1 className="hero-banner__headline">Thrive Band</h1>
       <p className="hero-banner__description">
