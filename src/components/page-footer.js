@@ -13,7 +13,10 @@ export const PageFooter = () => {
               <strong>Thrive Band</strong>
             </p>
             <p className="page-footer-message__description">
-              Thrive Band is a revolutionary wearable device designed to enhance your fitness experience. With advanced features such as automatic cramp prediction and pace guidance, Thrive Band empowers users to
+              <span>
+                Your fitness experience. With advanced features such as automatic
+                cramp prediction and pace guidance, Thrive Band empowers users to
+              </span>
             </p>
           </div>
           <div className="page-footer-info__button">
