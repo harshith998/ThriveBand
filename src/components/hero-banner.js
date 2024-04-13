@@ -10,8 +10,8 @@ export const HeroBanner = () => {
       </div>
       <h1 className="hero-banner__headline">Thrive Band</h1>
       <p className="hero-banner__description">
-        A holistic wearable for Tracking Health, Regulating Intensity, and
-        Verifying Endurance (THRIVE). Our device is a wrist device containing
+        A holistic wearable for <Strong>T</Strong>racking <Strong>H</Strong>ealth, <Strong>R</Strong>egulating <Strong>I</Strong>ntensity, and
+        <Strong>V</Strong>erifying <Strong>E</Strong>ndurance. Our device is a wrist device containing
         numerous sensors, allowing for a complete workout and fitness.
       </p>
       <a
