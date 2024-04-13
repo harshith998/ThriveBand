@@ -1,7 +1,7 @@
 import React from "react";
 
 export const PageFooter = () => {
-  const logo = "src/components/thrivelogo.png"; // New logo path
+  const logo = "https://i.pinimg.com/originals/a9/0e/c5/a90ec5e3493a27f243d10fab79d00f28.png"; // New logo path
 
   return (
     <footer className="page-footer">
