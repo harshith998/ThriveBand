@@ -1,7 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export const PageFooter = () => {
-  const logo = "https://i.pinimg.com/originals/a9/0e/c5/a90ec5e3493a27f243d10fab79d00f28.png"; // New logo path
+  const logo = "https://i.pinimg.com/originals/a9/0e/c5/a90ec5e3493a27f243d10fab79d00f28.png";
+
+  useEffect(() => {
+    // Load the Voiceflow widget
+    (function (d, t) {
+      var v = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+      v.onload = function () {
+        window.voiceflow.chat.load({
+          verify: { projectID: "661ae2529f0a7cb3f08a5cc0" },
+          url: "https://general-runtime.voiceflow.com",
+          versionID: "production",
+        });
+      };
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+      v.type = "text/javascript";
+      s.parentNode.insertBefore(v, s);
+    })(document, "script");
+  }, []);
 
   return (
     <footer className="page-footer">
@@ -32,7 +50,7 @@ export const PageFooter = () => {
           <div className="page-footer-brand">
             <img
               className="page-footer-brand__logo"
-              src={logo} // Using the new logo path
+              src={logo}
               alt="Thrive Band Logo"
               width="100"
               height="100"

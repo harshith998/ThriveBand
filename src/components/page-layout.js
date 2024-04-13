@@ -10,6 +10,7 @@ export const PageLayout = ({ children }) => {
       <MobileNavBar />
       <div className="page-layout__content">{children}</div>
       <PageFooter />
+      
     </div>
   );
 };
