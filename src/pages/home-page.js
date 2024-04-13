@@ -26,6 +26,6 @@ export const HomePage = () => (
           })(document, 'script');
         `,
       }}
-    />
+    ></script>
   </PageLayout>
 );
