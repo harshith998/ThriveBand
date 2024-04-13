@@ -1,7 +1,7 @@
 import React from "react";
 
 export const HeroBanner = () => {
-  const logo = "/thrivelogo.png";
+  const logo = "src/components/thrivelogo.png";
 
   return (
     <div className="hero-banner hero-banner--pink-yellow">

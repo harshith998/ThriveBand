@@ -7,7 +7,7 @@ export const NavBarBrand = () => {
       <NavLink to="/">
         <img
           className="nav-bar__logo"
-          src="/thrivelogo.png"
+          src="thrivelogo.pngsrc/components/thrivelogo.png"
           alt="Thrive Band shield logo"
           width="122"
           height="36"
