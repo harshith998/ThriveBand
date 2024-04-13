@@ -9,7 +9,7 @@ export const NavBarBrand = () => {
           className="nav-bar__logo"
           src="https://i.pinimg.com/originals/a9/0e/c5/a90ec5e3493a27f243d10fab79d00f28.png"
           alt="Thrive Band shield logo"
-          width="100"
+          width="90"
           height="36"
         />
       </NavLink>
