@@ -37,7 +37,6 @@ export const PageFooter = () => {
               width="100"
               height="100"
             />
-            <span>Thrive Band</span>
           </div>
         </div>
       </div>
