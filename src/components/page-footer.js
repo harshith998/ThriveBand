@@ -14,8 +14,8 @@ export const PageFooter = () => {
             </p>
             <p className="page-footer-message__description">
               <span>
-                Your fitness experience. With advanced features such as automatic
-                cramp prediction and pace guidance, Thrive Band empowers users to
+                Your fitness experience. With advanced features such as automatic // eslint-disable-next-line prettier/prettier
+                cramp prediction and pace guidance, Thrive Band empowers users to // eslint-disable-next-line prettier/prettier
               </span>
             </p>
           </div>
