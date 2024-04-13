@@ -10,7 +10,7 @@ export const NavBarBrand = () => {
           src="https://i.pinimg.com/originals/a9/0e/c5/a90ec5e3493a27f243d10fab79d00f28.png"
           alt="Thrive Band shield logo"
           width="90"
-          height="36"
+          height="43"
         />
       </NavLink>
     </div>
