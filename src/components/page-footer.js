@@ -12,7 +12,7 @@ export const PageFooter = () => {
               <span>This sample application is brought to you by&nbsp;</span>
               <strong>Thrive Band</strong>
             </p>
-            <p className="page-footer-message__description"> 
+            <p className="page-footer-message__description">
               <span>Your fitness experience. Your health. Your life.</span>
             </p>
           </div>
