@@ -18,7 +18,7 @@ export const HeroBanner = () => {
         id="code-sample-link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://auth0.com/developers/hub/code-samples/spa/react-javascript/basic-authentication-with-react-router-6"
+        href="thriveband.vercel.app"
         className="button button--secondary"
       >
         Check out Thrive Band in action →
