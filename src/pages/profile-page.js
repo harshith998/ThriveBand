@@ -7,16 +7,11 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "r
 export const ProfilePage = () => {
   const { user } = useAuth0();
 
-  // Demo data for the graph
-  const data = [
-    { time: 0, electrocytes: 100 },
-    { time: 10, electrocytes: 105 },
-    { time: 20, electrocytes: 110 },
-    { time: 30, electrocytes: 115 },
-    { time: 40, electrocytes: 120 },
-    { time: 50, electrocytes: 115 },
-    { time: 60, electrocytes: 110 },
-  ];
+  // Generate some random data
+  const data = Array.from({ length: 100 }, (_, i) => ({
+    time: i * 10,
+    electrocytes: 100 + Math.floor(Math.random() * 50),
+  }));
 
   if (!user) {
     return null;
@@ -45,7 +40,7 @@ export const ProfilePage = () => {
             </div>
             <div className="profile__details">
               <div className="electrocyte-chart">
-                <LineChart width={600} height={400} data={data}>
+                <LineChart width={800} height={500} data={data}>
                   <XAxis dataKey="time" label={{ value: "Time (seconds)", position: "insideBottom", offset: 0 }} />
                   <YAxis label={{ value: "Electrocyte Concentration", angle: -90, position: "insideLeft" }} />
                   <CartesianGrid strokeDasharray="3 3" />
