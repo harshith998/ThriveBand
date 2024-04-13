@@ -10,7 +10,12 @@ export const Auth0Features = () => {
     {
       title: "Pace Guidance System",
       description:
-        "Thrive Band is equipped with a pace guidance system that helps runners maintain their optimal pace during workouts. Using advanced algorithms, the device calculates the user's optimal pace and provides real-time feedback via vibration, ensuring they stay on track and avoid fatigue.",
+        "Thrive Band is equipped with a pace guidance system that helps runners maintain their optimal pace during workouts. Using advanced algorithms, the device calculates the user's optimal pace based on factors like heart rate, cadence, and terrain. It provides real-time feedback via vibration, ensuring runners stay on track and avoid fatigue.",
+    },
+    {
+      title: "Progressive Overload Wrist Tracker System",
+      description:
+        "Thrive Band includes a progressive overload wrist tracker system that creates customized workout plans for users. By tracking performance metrics such as reps, sets, and intensity, the device adapts the workout plan over time to promote muscle growth and prevent plateaus. This feature empowers users to achieve their fitness goals more effectively.",
     },
     {
       title: "Complete Workout Solution",

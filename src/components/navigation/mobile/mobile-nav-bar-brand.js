@@ -7,7 +7,7 @@ export const MobileNavBarBrand = ({ handleClick }) => {
       <NavLink to="/">
         <img
           className="mobile-nav-bar__logo"
-          src="https://cdn.auth0.com/blog/hub/code-samples/hello-world/auth0-logo.svg"
+          src="/thrivelogo.png"
           alt="Auth0 shield logo"
           width="82"
           height="24"
