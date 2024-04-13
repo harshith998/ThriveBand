@@ -12,10 +12,9 @@ export const PageFooter = () => {
               <span>This sample application is brought to you by&nbsp;</span>
               <strong>Thrive Band</strong>
             </p>
-            <p className="page-footer-message__description">
+            <p className="page-footer-message__description"> 
               <span>
-                Your fitness experience. With advanced features such as automatic // eslint-disable-next-line prettier/prettier
-                cramp prediction and pace guidance, Thrive Band empowers users to // eslint-disable-next-line prettier/prettier
+                Your fitness experience. Your health. Your life.
               </span>
             </p>
           </div>
