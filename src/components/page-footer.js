@@ -27,7 +27,7 @@ export const PageFooter = () => {
         <div className="page-footer-grid__info">
           <div className="page-footer-info__message">
             <p className="page-footer-message__headline">
-              <span>This sample application is brought to you by&nbsp;</span>
+              <span>This application is brought to you by&nbsp;</span>
               <strong>Thrive Band</strong>
             </p>
             <p className="page-footer-message__description">
