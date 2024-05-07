@@ -6,10 +6,9 @@ export const HeroBanner = () => {
   return (
     <div className="hero-banner hero-banner--pink-yellow">
       <div className="hero-banner__logo"></div>
-      <h1 className="hero-banner__headline">Thrive Band</h1>
+      <h1 className="hero-banner__headline">Tail AI</h1>
       <p className="hero-banner__description">
-        A holistic wearable for Tracking Health, Regulating Intensity, and Verifying Endurance. Our device is a wrist
-        device containing numerous sensors, allowing for a complete workout and fitness.
+        Tail AI is a comphrhensive AI mental health assitant powered by our custom ECG, Audio, and LLM models.
       </p>
       <a
         id="code-sample-link"
@@ -18,7 +17,7 @@ export const HeroBanner = () => {
         href="https://youtube.com/shorts/cBbhlRq14iM"
         className="button button--secondary"
       >
-        Check out Thrive Band in action →
+        Check out Tail AI in action
       </a>
 
       {/* Add the Voiceflow script tag */}
