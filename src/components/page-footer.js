@@ -1,16 +1,14 @@
 import React, { useEffect } from "react";
 
 export const PageFooter = () => {
-  const logo = "https://i.pinimg.com/originals/a9/0e/c5/a90ec5e3493a27f243d10fab79d00f28.png";
-
   useEffect(() => {
-    // Load the Voiceflow widget
+    // Load the AI Therapist widget
     (function (d, t) {
       var v = d.createElement(t),
         s = d.getElementsByTagName(t)[0];
       v.onload = function () {
-        window.voiceflow.chat.load({
-          verify: { projectID: "661ae2529f0a7cb3f08a5cc0" },
+        window.aiTherapist.chat.load({
+          verify: { projectID: "661ae2529f0a7cb3f08a5cc0" }, // Replace with your AI therapist project ID
           url: "https://general-runtime.voiceflow.com",
           versionID: "production",
         });
@@ -27,34 +25,23 @@ export const PageFooter = () => {
         <div className="page-footer-grid__info">
           <div className="page-footer-info__message">
             <p className="page-footer-message__headline">
-              <span>This application is brought to you by&nbsp;</span>
-              <strong>Thrive Band</strong>
+              <span>This application is powered by&nbsp;</span>
+              <strong>AI Therapist</strong> {/* Changed to promote AI therapist */}
             </p>
             <p className="page-footer-message__description">
-              <span>Your fitness experience. Your health. Your life.</span>
+              <span>Your mental health companion for a balanced life.</span> {/* Updated description */}
             </p>
           </div>
           <div className="page-footer-info__button">
             <a
               id="learn-more-button"
               className="button button--secondary"
-              href="https://thriveband.vercel.app"
+              href="https://tail-ai.vercel.app" 
               target="_blank"
               rel="noreferrer noopener"
             >
-              Learn More About Thrive Band
+              Learn More About AI Therapist {/* Updated button text */}
             </a>
-          </div>
-        </div>
-        <div className="page-footer-grid__brand">
-          <div className="page-footer-brand">
-            <img
-              className="page-footer-brand__logo"
-              src={logo}
-              alt="Thrive Band Logo"
-              width="100"
-              height="100"
-            />
           </div>
         </div>
       </div>
