@@ -8,7 +8,7 @@ export const HeroBanner = () => {
       <div className="hero-banner__logo"></div>
       <h1 className="hero-banner__headline">Tail AI</h1>
       <p className="hero-banner__description">
-        Tail AI is a comphrhensive AI mental health assitant powered by our custom ECG, Audio, and LLM models
+        Tail AI is a comphrehensive AI mental health assitant powered by our custom ECG, Audio, and LLM models
       </p>
       <a
         id="code-sample-link"
