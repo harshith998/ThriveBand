@@ -1,4 +1,5 @@
 import React from "react";
+import "./Auth0Features.css"; // Import CSS file for styling
 
 export const Auth0Features = () => {
   const featuresList = [
@@ -17,6 +18,11 @@ export const Auth0Features = () => {
       description:
         "Our AI outbound assistant tracks tasks and provides data-driven insights to optimize its performance. By analyzing call outcomes and user feedback, it continuously improves its efficiency and accuracy in completing tasks.",
     },
+    {
+      title: "User-Friendly Interface",
+      description:
+        "The AI outbound assistant features a user-friendly interface that simplifies task management and interaction. With intuitive controls and clear feedback, users can easily navigate and utilize its capabilities.",
+    },
   ];
 
   return (
@@ -24,9 +30,9 @@ export const Auth0Features = () => {
       <h2 className="ai-outbound-assistant__title">AI Outbound Assistant Features</h2>
       <div className="ai-outbound-assistant__grid">
         {featuresList.map((feature, index) => (
-          <div key={index} className="ai-outbound-assistant-feature">
-            <h3 className="ai-outbound-assistant-feature__title">{feature.title}</h3>
-            <p className="ai-outbound-assistant-feature__description">{feature.description}</p>
+          <div key={index} className="ai-outbound-assistant__block">
+            <h3 className="ai-outbound-assistant__block-title">{feature.title}</h3>
+            <p className="ai-outbound-assistant__block-description">{feature.description}</p>
           </div>
         ))}
       </div>
