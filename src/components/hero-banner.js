@@ -5,7 +5,7 @@ export const HeroBanner = () => {
   return (
     <div className="hero-banner hero-banner--pink-yellow">
       <div className="hero-banner__logo"></div>
-      <h1 className="hero-banner__headline">Tail AI</h1>
+      <h1 className="hero-banner__headline">Call AI</h1>
       <p className="hero-banner__description">
         Call AI is a comphrehensive AI phone call assistant to simply make outbound calls—whether for trivial questions or insurance claims.
       </p>
