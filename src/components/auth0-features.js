@@ -1,6 +1,6 @@
 import React from "react";
 
-export const AIOutboundAssistant = () => {
+export const Auth0Features = () => {
   const featuresList = [
     {
       title: "Automated Task Completion",
